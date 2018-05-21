@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">照片压缩大师</string>
+    <string name="action_settings">设置</string>
+    <string name="action_help">帮助</string>
+    <string name="action_about">关于</string>
+    <string name="title_activity_content_main">content_main</string>
+</resources>

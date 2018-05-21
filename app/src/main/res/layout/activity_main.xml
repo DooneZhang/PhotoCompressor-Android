@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_shot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_margin="@dimen/fab_margin"
+        android:alpha="0.6"
+        app:backgroundTint="@color/bg_color"
+        app:elevation="24dp"
+        app:layout_anchor="@id/include"
+        app:layout_anchorGravity="bottom|right"
+        app:srcCompat="@drawable/camera01" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="@dimen/fab_margin"
+        android:alpha="0.7"
+        app:backgroundTint="@color/logoColor"
+        app:backgroundTintMode="src_over"
+        app:elevation="15dp"
+        app:srcCompat="@drawable/home_add" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_bat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_margin="@dimen/fab_margin"
+        android:alpha="0.6"
+        app:backgroundTint="@color/bg_color"
+        app:elevation="24dp"
+        app:layout_anchor="@id/include"
+        app:layout_anchorGravity="bottom|left"
+        app:srcCompat="@drawable/checklist" />
+
+</android.support.design.widget.CoordinatorLayout>
